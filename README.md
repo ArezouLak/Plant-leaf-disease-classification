@@ -133,6 +133,12 @@ Add your four training-history plots to `results/training_curves/` and your anno
 
 A final comparison table can be added here once the exact metrics from all four experiments are available.
 
-## Key takeaway
 
-Transfer learning provided more stable convergence and better classification performance in this four-class plant disease classification task.
+## Key Findings
+
+- Pretrained VGG16-BN and ResNet18 achieved better classification performance than the corresponding models trained from scratch.
+- Transfer learning produced smoother and more stable convergence.
+- Pretrained ImageNet features helped the models learn useful visual patterns more efficiently for plant disease classification.
+- Inference was performed on 10 randomly selected test images to demonstrate model predictions and confidence scores.
+
+
