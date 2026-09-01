@@ -2,12 +2,30 @@
 
 Deep-learning project for four-class plant leaf classification using **VGG16-BN** and **ResNet18**, trained both **from scratch** and with **ImageNet transfer learning**.
 
-## Classes
+## Dataset
+
+The dataset used in this project was obtained from the Kaggle dataset:
+
+**Crop Pest and Disease Detection**  
+Source: https://www.kaggle.com/datasets/nirmalsankalana/crop-pest-and-disease-detection
+
+For this project, only four classes were selected:
 
 - Cashew anthracnose
 - Cashew healthy
 - Cassava green mite
 - Maize streak virus
+
+The dataset itself is not included in this repository. Users should download it directly from the original Kaggle source.
+
+After downloading, organize the selected classes in the following structure:
+
+```text
+dataset/
+├── Cashew anthracnose/
+├── Cashew healthy/
+├── Cassava green mite/
+└── Maize streak virus/
 
 ## Experiments
 
