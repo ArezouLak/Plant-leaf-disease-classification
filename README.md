@@ -20,7 +20,6 @@ The dataset itself is not included in this repository. Users should download it 
 
 After downloading, organize the selected classes in the following structure:
 
-```text
 dataset/
 ├── Cashew anthracnose/
 ├── Cashew healthy/
